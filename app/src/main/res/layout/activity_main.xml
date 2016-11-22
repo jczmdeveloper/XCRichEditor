@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/tv_header"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FAE100"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="XCRichEditor Demo"/>
+    <RelativeLayout
+        android:id="@+id/rl_action"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:background="#CDCDCD"
+        android:layout_height="45dp">
+
+        <ImageView
+            android:id="@+id/add_pic"
+            android:layout_centerVertical="true"
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/icon_photo"/>
+    </RelativeLayout>
+    <com.czm.xcricheditor.XCRichEditor
+        android:id="@+id/richEditor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp"
+        android:layout_below="@id/tv_header"
+        android:layout_above="@id/rl_action"
+        android:paddingBottom="10dp"></com.czm.xcricheditor.XCRichEditor>
+</RelativeLayout>

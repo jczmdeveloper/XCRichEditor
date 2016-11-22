@@ -1,0 +1,12 @@
+<resources>
+
+    <color name="gray_3">#333333</color>
+    <color name="gray_6">#666666</color>
+    <color name="gray_9">#999999</color>
+    <color name="gray_dividing">#ffcccccc</color>
+    <color name="gray_bg">#ffeeeeee</color>
+    <color name="white">#ffffffff</color>
+    <color name="blue_1">#15aeed</color>
+    <color name="blue_2">#546893</color>
+    <color name="gray_hobby">#6a7989</color>
+</resources>

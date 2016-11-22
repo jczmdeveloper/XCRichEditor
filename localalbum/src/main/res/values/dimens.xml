@@ -1,0 +1,117 @@
+<resources>
+
+    <!-- Title -->
+    <dimen name="title_view_left_back_padding_left">12.0dip</dimen>
+    <dimen name="title_view_left_back_padding_right">12.0dip</dimen>
+    <dimen name="header_bar_height">45.0dip</dimen>
+    <dimen name="title_dividing_line_margin_top">10dip</dimen>
+    <dimen name="dividing_line_margin_top">10dip</dimen>
+    <dimen name="dividing_line_margin_top2">15dip</dimen>
+    <dimen name="dividing_line_width_height">0.5dip</dimen>
+    <dimen name="album_header_bar_height">50.0dip</dimen>
+
+    <!-- 登陆界面 -->
+    <dimen name="login_dividing_line_margin_top">15dip</dimen>
+    <dimen name="login_button_height">44dip</dimen>
+    <dimen name="login_button_margin_left_right">20dip</dimen>
+    <dimen name="login_button_margin_top">25dip</dimen>
+    <dimen name="login_forget_password_margin_right_top">15dip</dimen>
+    <dimen name="login_quick_login_margin_text_top">15dip</dimen>
+    <dimen name="login_quick_login_margin_left_right">15dip</dimen>
+    <dimen name="login_quick_login_img_margin_left_right">20dip</dimen>
+    <dimen name="login_icon_size">75dip</dimen>
+    <!-- EditLayout -->
+    <dimen name="editlayout_icon_width_height">40dip</dimen>
+    <dimen name="editlayout_icon_margin_left">15dip</dimen>
+    <dimen name="editlayout_clear_width_height">18dip</dimen>
+    <dimen name="editlayout_clear_margin_left">15dip</dimen>
+    <dimen name="editlayout_clear_margin_right">20dip</dimen>
+    <dimen name="editlayout_height">45dip</dimen>
+    <dimen name="editlayout_margin_top_bottom">4dip</dimen>
+
+    <!-- 注册界面 -->
+    <dimen name="register_button_height">45dip</dimen>
+    <dimen name="register_button_margin_left_right">20dip</dimen>
+    <dimen name="register_button_margin_top">25dip</dimen>
+    <dimen name="register_agreement_left_top">20dip</dimen>
+    <dimen name="register_phone_button_width">90dip</dimen>
+    <dimen name="register_phone_button_height">40dip</dimen>
+    <dimen name="register_phone_button_margin_right">15dip</dimen>
+
+    <!-- 主界面导航 -->
+    <dimen name="navigation_height">55dip</dimen>
+    <dimen name="navigation_img_margin_top">8dip</dimen>
+    <dimen name="navigation_text_margin_bottom">4dip</dimen>
+    <dimen name="navigation_img_margin_bottom">3dip</dimen>
+
+    <!-- 我的 -->
+    <dimen name="mine_title_padding">15dip</dimen>
+    <dimen name="mine_userinfo_height">150dip</dimen>
+    <dimen name="mine_header_icon_size">36dip</dimen>
+    <dimen name="mine_layout1_padding_size">6dip</dimen>
+    <dimen name="mine_layout1_height">65dip</dimen>
+    <dimen name="mine_short_dividing_line_height">25dip</dimen>
+    <dimen name="mine_layout2_height">50dip</dimen>
+    <dimen name="mine_icon_size_1">41dip</dimen>
+    <dimen name="mine_icon_size_2">30dip</dimen>
+    <dimen name="mine_layout_margin_left">15dip</dimen>
+    <dimen name="mine_layout_margin_right">15dip</dimen>
+    <dimen name="mine_message_container_height">180dip</dimen>
+    <dimen name="mine_add_button_height">30dip</dimen>
+    <dimen name="mine_add_button_width">80dip</dimen>
+    <dimen name="mine_potrait_size">60dip</dimen>
+    <dimen name="mine_potrait_margin_top">20dip</dimen>
+    <dimen name="mine_user_name_margin_top">5dip</dimen>
+    <dimen name="mine_interest_min_width">30dip</dimen>
+    <dimen name="mine_interest_height">18dip</dimen>
+    <dimen name="mine_interest_margin_top">10dip</dimen>
+    <dimen name="mine_interest_item_margin">6dip</dimen>
+    <dimen name="mine_want_go_margin">8dip</dimen>
+    <dimen name="mine_want_go_margin_top">5dip</dimen>
+    <dimen name="mine_want_go_item_height">140dip</dimen>
+    <dimen name="mine_want_go_image_size">90dip</dimen>
+    <dimen name="mine_want_go_button_width">77dip</dimen>
+    <dimen name="mine_want_go_button_height">28dip</dimen>
+
+    <!-- 我的关注 -->
+    <dimen name="attention_item_height">95dip</dimen>
+    <dimen name="attention_item_icon_size">50dip</dimen>
+    <dimen name="attention_item_button_height">18dip</dimen>
+    <dimen name="attention_item_button_min_width">25dip</dimen>
+
+    <!-- 个人信息 -->
+    <dimen name="userinfo_portrait_height">65dip</dimen>
+    <dimen name="userinfo_item_height">45dip</dimen>
+
+    <!-- 我的活动 -->
+    <dimen name="all_activities_item_height">190dip</dimen>
+
+    <!-- 爱好界面 -->
+    <dimen name="interest_padding_left_right">10dip</dimen>
+    <dimen name="interest_margin_top_bottom">20dip</dimen>
+    <dimen name="interest_icon_size">50dip</dimen>
+
+    <!-- 消息界面 -->
+    <dimen name="message_icon_size">35dip</dimen>
+    <dimen name="message_margin_left_bottom_top">10dip</dimen>
+    <dimen name="message_margin_left_big">55dip</dimen>
+    <dimen name="message_margin_right">15dip</dimen>
+
+    <!-- 俱乐部/领队详情 -->
+    <dimen name="clubinfo_type_min_width">44dip</dimen>
+    <dimen name="clubinfo_type_height">27dip</dimen>
+
+    <!-- 活动界面 -->
+    <dimen name="activity_banner_height">190dip</dimen>
+    <dimen name="activity_banner2_height">80dip</dimen>
+    <dimen name="activity_padding">10dip</dimen>
+    <dimen name="dynamic_new_footer_height">60dip</dimen>
+    <!-- 动态单张图片大小 -->
+    <dimen name="dynamic_single_pic_size">200dip</dimen>
+
+    <!-- 用户信息-->
+    <dimen name="personal_item_margin_leftright">12dip</dimen>
+    <dimen name="personal_item_textsize">15sp</dimen>
+    <dimen name="personal_item_height">45dip</dimen>
+
+</resources>

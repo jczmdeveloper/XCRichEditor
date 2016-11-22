@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.RecyclerView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_edit_component"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarThumbVertical="@drawable/shape_scrollbar"
+    android:scrollbarSize="3dp"
+    android:scrollbars="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:scrollbarStyle="outsideOverlay"
+    android:descendantFocusability="beforeDescendants"
+    >
+
+</android.support.v7.widget.RecyclerView>

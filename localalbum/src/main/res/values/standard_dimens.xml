@@ -1,0 +1,26 @@
+<resources>
+
+    <dimen name="padding_2">2.0dip</dimen>
+    <dimen name="padding_3">3.0dip</dimen>
+    <dimen name="padding_5">5.0dip</dimen>
+    <dimen name="padding_10">10.0dip</dimen>
+    <dimen name="padding_15">15.0dip</dimen>
+    <dimen name="padding_20">20.0dip</dimen>
+    <dimen name="dividing_0.5">0.5dip</dimen>
+    <dimen name="dividing_1">1dip</dimen>
+    <dimen name="dividing_5">5dip</dimen>
+    <dimen name="dividing_10">10dip</dimen>
+    <!-- 字体大小设置为dip 防止系统字体影响-->
+    <dimen name="textsize_10">10dip</dimen>
+    <dimen name="textsize_11">11dip</dimen>
+    <dimen name="textsize_12">12dip</dimen>
+    <dimen name="textsize_13">13dip</dimen>
+    <dimen name="textsize_14">14dip</dimen>
+    <dimen name="textsize_15">15.0dip</dimen>
+    <dimen name="textsize_16">16dip</dimen>
+    <dimen name="textsize_17">17dip</dimen>
+    <dimen name="textsize_18">18.0dip</dimen>
+    <dimen name="textsize_19">18dip</dimen>
+    <dimen name="textsize_20">18dip</dimen>
+<dimen name="size_100">100dip</dimen>
+</resources>

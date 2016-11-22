@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EditText xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_item_text_component"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#00000000"
+    android:hint=""
+    android:inputType="textMultiLine"
+    android:textColor="#333333"
+    android:textColorHint="#Ababab"
+    android:lineSpacingExtra="3dp"
+    android:textCursorDrawable="@drawable/shape_edittext_cursor"
+    android:textSize="16sp">
+
+</EditText>

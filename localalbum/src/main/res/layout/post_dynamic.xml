@@ -1,0 +1,147 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/container_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/post_edit_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <!-- 标题 -->
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/header_bar_height"
+            android:background="#ffffff"
+            android:gravity="top" >
+
+            <ImageView
+                android:id="@+id/post_back"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:paddingLeft="@dimen/title_view_left_back_padding_left"
+                android:paddingRight="@dimen/title_view_left_back_padding_right"
+                android:scaleType="fitCenter"
+                android:src="@drawable/back" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:singleLine="true"
+                android:text="发布动态"
+                android:textColor="@color/title_text_color"
+                android:textSize="@dimen/textsize_18" />
+
+            <TextView
+                android:id="@+id/post_send"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:paddingRight="12.0dip"
+                android:singleLine="true"
+                android:text="发布"
+                android:textColor="#15aeed"
+                android:textSize="@dimen/textsize_15" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dividing_line_width_height"
+            android:background="@color/mine_dividing_line_color" />
+
+        <EditText
+            android:id="@+id/post_content"
+            android:layout_width="fill_parent"
+            android:layout_height="100dip"
+            android:background="#ffffff"
+            android:gravity="top"
+            android:hint="说点什么吧..."
+            android:maxLength="140"
+            android:paddingBottom="@dimen/padding_5"
+            android:paddingLeft="@dimen/padding_10"
+            android:paddingRight="@dimen/padding_10"
+            android:paddingTop="@dimen/padding_5"
+            android:textSize="@dimen/textsize_16" />
+
+        <TextView
+            android:id="@+id/post_text_remain"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:gravity="right|center_vertical"
+            android:paddingBottom="@dimen/padding_5"
+            android:paddingRight="@dimen/padding_10"
+            android:text="0/140"
+            android:textColor="@color/gray_9"
+            android:textSize="@dimen/textsize_12" />
+
+        <HorizontalScrollView
+            android:id="@+id/post_scrollview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:paddingBottom="@dimen/padding_10"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:id="@+id/post_pic_container"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size_100"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/padding_10"
+                android:paddingRight="@dimen/padding_10" >
+
+                <com.example.localalbum.widget.FilterImageView
+                    android:id="@+id/post_add_pic"
+                    android:layout_width="@dimen/size_100"
+                    android:layout_height="@dimen/size_100"
+                    android:src="@drawable/post_add_pic" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/post_pic_remain"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:gravity="right|center_vertical"
+            android:paddingBottom="@dimen/padding_5"
+            android:paddingRight="@dimen/padding_10"
+            android:text="0/9"
+            android:textColor="@color/gray_9"
+            android:textSize="@dimen/textsize_12" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dividing_line_width_height"
+            android:background="@color/mine_dividing_line_color" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/pagerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" >
+
+        <com.example.localalbum.widget.AlbumViewPager
+            android:id="@+id/albumviewpager"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/album_item_bg" />
+
+        <include
+            android:id="@+id/album_item_header_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            layout="@layout/album_item_header_bar" />
+    </FrameLayout>
+
+</LinearLayout>

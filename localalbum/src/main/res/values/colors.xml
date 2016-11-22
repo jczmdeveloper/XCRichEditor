@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="title_bg">#ffffffff</color>
+    <color name="title_text_color">#ff363636</color>
+    <color name="full_transparent">#00000000</color>
+    <color name="container_bg">#ffeeeeee</color>
+    <color name="trans">#00000000</color>
+    <color name="black">#000000</color>
+    <color name="alertdialog_line">#c6c6c6</color>
+    <color name="actionsheet_blue">#037BFF</color>
+    <color name="actionsheet_red">#FD4A2E</color>
+    <color name="actionsheet_gray">#8F8F8F</color>
+    <color name="common_title_bg">#aa111213</color>
+    <color name="primary_title_text_color">#ffeeeeee</color>
+    <color name="album_item_bg">#fffcfcfd</color>
+
+    <!-- 登陆界面 -->
+    <color name="login_login_button_enable_color">#fffded</color>
+    <color name="login_login_button_disable_color">#bdbdbd</color>
+    <color name="login_register_text_color">#3799df</color>
+    <color name="login_input_container_bg">#ffffffff</color>
+    <color name="login_forget_password_text_color">#646464</color>
+    <color name="login_quick_login_text_color">#8f8f8f</color>
+    <color name="login_input_dividing_line_bg">#cbcbcb</color>
+
+    <!-- 注册界面 -->
+    <color name="register_agreement_color">#4da0e4</color>
+    <color name="register_phone_button_enable_color">#ffffff</color>
+    <color name="register_phone_button_disable_color">#e3f1fa</color>
+
+    <!-- 协议dialog -->
+    <color name="dialog_title_bg">#00adef</color>
+    <color name="dialog_container_bg">#ffffff</color>
+
+    <!-- 主界面导航 -->
+    <color name="navigation_bg">#f8f8f8</color>
+    <color name="navigation_text_normal_color">#2c2c2c</color>
+    <color name="navigation_text_selected_color">#1cb6f4</color>
+
+    <!-- "我的"界面 -->
+    <color name="mine_bg">#ffffff</color>
+    <color name="mine_bg_selected">#d9d9d9</color>
+    <color name="mine_dividing_line_color">#cacaca</color>
+    <color name="mine_text_color_normal">#333333</color>
+    <color name="mine_text_color_selected">#999999</color>
+    <color name="mine_message_container_bg">#f6f7fb</color>
+    <color name="mine_text_text_color">#9c9f9d</color>
+    <color name="mine_add_text_color">#6fbce6</color>
+    <color name="mine_user_name_color">#e7e8ea</color>
+    <color name="mine_invite_enable">#656565</color>
+    <color name="mine_invite_disable">#e7e7e7</color>
+    <color name="want_go_item_text_color1">#313131</color>
+    <color name="want_go_item_text_color2">#707070</color>
+    <color name="want_go_item_text_red_color">#f54c61</color>
+
+    <!-- 个人信息 -->
+    <color name="userinfo_title_color">#333333</color>
+    <color name="userinfo_value_color">#999999</color>
+
+    <!-- 我的活动 -->
+    <color name="all_activities_tab_normal_color">#333333</color>
+    <color name="all_activities_tab_selected_color">#3e9de0</color>
+
+    <!-- 爱好界面 -->
+    <color name="interest_bg">#f6f7fb</color>
+    <!-- 消息界面 -->
+    <color name="message_text_color">#999999</color>
+    <color name="message_content_color">#333333</color>
+
+    <!-- 活动详情 -->
+    <color name="blue_bg">#20b2ee</color>
+    <color name="blue_bg_selected">#0392cd</color>
+    <color name="blue_bg_unable">#dedede</color>
+
+     <!--  songyao  --> 
+    <color name="message_new_background">#eeeeee</color> 
+    <color name="message_new_name_textcolor">#333333</color> 
+    <color name="message_new_value_textcolor">#536893</color> 
+    
+    <color name="footer_line">#cccccc</color>
+    <color name="footer_text">#666666</color>
+
+    <color name="userinfo_signture_background">#eeeeee</color>
+
+    <!-- 用户信息-->
+    <color name="personal_page_item_background">#ffffff</color>
+    <color name="personal_page_background">#eeeeee</color>
+    <color name="personal_page_systemdynamic_background">#eeeeee</color>
+    <color name="personal_page_dynamic_textcolor_gray">#b0b0b0</color>
+    <color name="personal_page_leadactivity_textcolor">#333333</color>
+    <color name="personal_page_signture_null_textcolor">#f1f1f1</color>
+</resources>

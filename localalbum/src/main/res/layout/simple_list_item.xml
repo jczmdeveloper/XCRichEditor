@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <com.example.localalbum.widget.FilterImageView
+        android:id="@+id/imageView"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:padding="0.1dip"
+        android:scaleType="centerCrop" />
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        android:background="@drawable/picture_setting_album_checkbox"
+        android:button="@null"
+        android:checked="false"
+        android:focusable="false" />
+</FrameLayout>
