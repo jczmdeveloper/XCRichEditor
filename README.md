@@ -1,12 +1,12 @@
 # XCRichEditor
 An Android Rich Text Editor which uses RecyclerView- 一个Android 图片混排富文本编辑器控件（仿兴趣部落）
 
-1. 效果演示图：
+## 效果演示图：
 
 ![iamge](https://raw.githubusercontent.com/jczmdeveloper/XCRichEditor/master/screenshots/01.gif)
 
 
-2. 使用方法：
+## 使用方法：
 
 public class MainActivity extends Activity {
 
