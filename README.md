@@ -8,7 +8,6 @@ An Android Rich Text Editor which uses RecyclerView- 一个Android 图片混排�
 
 2. 使用方法：
 
-
 public class MainActivity extends Activity {
 
 
